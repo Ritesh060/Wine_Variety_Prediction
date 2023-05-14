@@ -1,5 +1,5 @@
 # Wine_Variety_Prediction
-A model with a Flask website for predicting the Variety of wine running on localhost. 
+A model with a Flask website and API for predicting the Variety of wine running on localhost. 
 
 ## Dataset
 The dataset used to train the model can be found [here](https://drive.google.com/file/d/1ra9lwNjK9G8Ns0bAfzipD0u3Xwii5hc0/view).
