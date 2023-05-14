@@ -12,7 +12,7 @@ All files can be dowloaded using this [link](https://drive.google.com/file/d/1At
 
 ## Demo of the website and API
 
-The demo demonstrating the website and API and can be found [here](https://www.youtube.com/watch?v=wx2nyWc_ais).
+A demo demonstrating the website and API and can be found [here](https://www.youtube.com/watch?v=wx2nyWc_ais).
 
 ## Insights
 Insights on the data are found by visualising and calculating the mean of parameters or by analysing count of parameters. This analysis can be found [here](https://github.com/Ritesh060/Wine_Variety_Prediction/blob/main/Data_Analysis.ipynb).
