@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wine Variety Predictor</title>
+	<style>
+		body {
+			background-color: rgb(0, 0, 0);
+		}
+		form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			margin-top: 100px;
+		}
+		input[type="text"], input[type="number"] {
+			padding: 10px;
+			margin: 10px;
+			border-radius: 5px;
+			border: none;
+			width: 50%;
+			font-size: 16px;
+		}
+		input[type="submit"] {
+			padding: 10px 20px;
+			margin-top: 20px;
+			border-radius: 5px;
+			border: none;
+			background-color: #4CAF50;
+			color: white;
+			font-size: 16px;
+			cursor: pointer;
+		}
+		h1 {
+			margin-top: 50px;
+			text-align: center;
+			font-size: 32px;
+			color: #4CAF50;
+		}
+	</style>
+</head>
+<body>
+	<h1>Wine Variety Predictor</h1>
+	<form method="POST" action="/predict">
+		<label for="review_title">Review Title:</label>
+		<input type="text" id="review_title" name="review_title" required>
+        	<label for="review_description">Review Description:</label>
+	<input type="text" id="review_description" name="review_description" required>
+
+	<label for="winery">Winery:</label>
+	<input type="text" id="winery" name="winery" required>
+
+	<label for="points">Points:</label>
+	<input type="number" id="points" name="points" required>
+
+	<input type="submit" value="Predict Wine Variety">
+</form>
+{{prediction_text}}
+</body>
+</html> 
