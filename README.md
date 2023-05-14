@@ -24,7 +24,7 @@ The API was made using Flask framework and can be called in Postman application 
 ## Building Application
 A website was made using HTML and CSS and was linked to the model using Flask framework.
 
-## How to run the Application and the API??
+## How to run the website and the API??
 First of all download the model file and the dataset and transfer it to the directory where the rest of the files are kept. <br><br>
 Then go to the terminal which is opened in the same directory as "main.py" and run the following code:
 ```shell
@@ -36,3 +36,6 @@ python main.py
 ## Demo of the website and API
 
 The demo demonstrating the website and API and can be found [here](https://www.youtube.com/watch?v=wx2nyWc_ais).
+
+## Next step
+To deploy this model on a cloud servie for hosting.
