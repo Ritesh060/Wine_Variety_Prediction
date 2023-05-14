@@ -14,7 +14,7 @@ All files can be dowloaded using this [link](https://drive.google.com/file/d/1At
 Insights on the data are found by visualising and calculating the mean of parameters or by analysing count of parameters. This analysis can be found [here](https://github.com/Ritesh060/Wine_Variety_Prediction/blob/main/Data_Analysis.ipynb).
 
 ## Model Training
-Wine Variety is to predicted from a given set of parameters. The parameters chosen were "review_title", "review_description", "points" and "winery" as they had zero null values so more entries can be used for training which lead to better results. The algorithms used were Logistic Regression, Random Forest Classifier, Naive Bayes Classifier, K-nearest Neighbour classifier, Decision Tree Classifier and SVM Classifier to check for the highest accuracies. The highest accuracy found among these were by SVM Classifier which was over 96%. 
+Wine Variety is to predicted from a given set of parameters. The parameters chosen were "review_title", "review_description", "points" and "winery" as they had zero null values so more entries can be used for training which lead to better results. This is a classification problem so classification algorithms are applied on the dataset. The algorithms used were Logistic Regression, Random Forest Classifier, Naive Bayes Classifier, K-nearest Neighbour classifier, Decision Tree Classifier and SVM Classifier to check for the highest accuracies. The highest accuracy found among these were by SVM Classifier which was over 96%. 
 <br><br>
 For final model, deep learning model was made by creating  Word Embedding and LSTM layers in the neural network. An accuracy of over 99% was achieved using this model. This is the final model being used for the API and the application.
 
