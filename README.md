@@ -10,6 +10,10 @@ The final model can be found [here](https://drive.google.com/file/d/1j1Xk_2G3YyQ
 ## Link to download all the files together as a zip
 All files can be dowloaded using this [link](https://drive.google.com/file/d/1ILU4wzZNf-R7un418raqk7lYChh-Aslw/view?usp=share_link).
 
+## Deployment link
+The website is deployed via Microsoft Azure. The link for it is here : https://wine-pred.azurewebsites.net/,<br>
+The deployed API link is https://wine-pred.azurewebsites.net/predict_api which works via Postman.
+
 ## Demo of the website and API
 
 A demo demonstrating the website and API and can be found [here](https://www.youtube.com/watch?v=Q_B4v7zWEv4).
