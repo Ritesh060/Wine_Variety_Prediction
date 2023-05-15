@@ -1,4 +1,4 @@
-# Wine_Variety_Prediction
+# Wine Variety Prediction
 A model with a Flask website and API for predicting the Variety of wine running on localhost. 
 
 ## Dataset
