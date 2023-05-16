@@ -45,5 +45,7 @@ python main.py
 
 The demo demonstrating the website and API and can be found [here](https://www.youtube.com/watch?v=wx2nyWc_ais).
 
+Demo of the deployed website and API can be found [here](https://www.youtube.com/watch?v=P0K53MinkhY).
+
 ## Next step
 To deploy this model on a cloud servie for hosting.
